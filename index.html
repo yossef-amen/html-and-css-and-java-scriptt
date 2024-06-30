@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specaial World</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+  </head>
+  <body>
+    <!-- setting box -->
+    <div class="setting-box">
+      <div class="toggle-settings">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="aqua"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color=" rgb(255, 3, 3)"></li>
+            <li data-color="blueviolet"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random BackGround</h4>
+          <div class="random-background">
+            <span class="yes active" data-bg="yes">YES</span>
+            <span class="no" data-bg="no">NO</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show bullet</h4>
+          <div class="bullet-option">
+            <span class="yes" data-display="show">YES</span>
+            <span class="no active" data-display="hide">NO</span>
+          </div>
+        </div>
+        <button class="resetoption">Reset Option</button>
+      </div>
+    </div>
+    <!-- nav-bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Luffy Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".time-line">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Side Charceters</div>
+      </div>
+      <div class="bullet" data-section=".testimonial">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- landing -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Specaial World</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About Us</a></li>
+              <li><a href="#" data-section=".skills">Luffy Skills</a></li>
+              <li><a href="#" data-section=".gallery">Our Gallery</a></li>
+              <li><a href="#" data-section=".time-line">Timeline</a></li>
+              <li><a href="#" data-section=".features">Side Charceters</a></li>
+              <li><a href="#" data-section=".testimonial">Testimonials</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <div class="introduction">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos natus
+            nobis aliquam eaque deleniti, debitis aspernatur.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            quidem cumque qui reprehenderit magnam eligendi dolor ut quos
+            corporis quod non, tempora sit, ad dolores inventore quis rerum,
+            doloribus necessitatibus esse ipsam. Commodi a magni illo eos ullam
+            quisquam facere culpa inventore! Quos deserunt, maxime unde
+            similique cumque quibusdam neque reiciendis corrupti at saepe rerum
+            sapiente laborum ad cupiditate exercitationem repellat iure quas!
+            Quaerat corrupti, ea doloribus animi facilis eos quasi dolorum
+            officiis. Cupiditate eligendi fugit, sapiente laborum tenetur
+            excepturi quia id quas laudantium a voluptates, non nobis facere
+            incidunt nostrum atque, voluptatem possimus itaque illum. Officia
+            ducimus similique culpa.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/faruzan.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- start skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Luffy Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">Devil Fruit</div>
+          <div class="skill-power">
+            <span data-power="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Haki Power</div>
+          <div class="skill-power">
+            <span data-power="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Courage</div>
+          <div class="skill-power">
+            <span data-power="100%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Intelligence</div>
+          <div class="skill-power">
+            <span data-power="15%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="imgs/01.jpg" alt="LUFFY" />
+          <img src="imgs/02.jpg" alt="ZORO" />
+          <img src="imgs/03.jpg" alt="SANJI" />
+          <img src="imgs/04.jpg" alt="NAMI" />
+          <img src="imgs/05.jpg" alt="USSOP" />
+          <img src="imgs/06.jpg" alt="CHOPPER" />
+          <img src="imgs/07.jpg" alt="ROBIN" />
+          <img src="imgs/08.jpg" alt="FRANKY" />
+          <img src="imgs/09.jpg" alt="BROOK" />
+          <img src="imgs/011.jpg" alt="JINBEI" />
+        </div>
+      </div>
+    </div>
+    <!-- Timeline -->
+    <div class="time-line">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">1999</div>
+          <div class="left">
+            <div class="content">
+              <h3>One Piece Anime Series</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas distinctio fugiat, dolore atque a iure blanditiis
+                quaerat sed explicabo adipisci voluptates, illum minima velit
+                eveniet perspiciatis enim eum! Illum dicta in ex at repellat
+                corporis explicabo distinctio! Libero autem fugiat omnis ducimus
+                quisquam tempora rerum maxime? Eum necessitatibus blanditiis
+                voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>One Piece manga</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas distinctio fugiat, dolore atque a iure blanditiis
+                quaerat sed explicabo adipisci voluptates, illum minima velit
+                eveniet perspiciatis enim eum! Illum dicta in ex at repellat
+                corporis explicabo distinctio! Libero autem fugiat omnis ducimus
+                quisquam tempora rerum maxime? Eum necessitatibus blanditiis
+                voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>One Piece Tv Series</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas distinctio fugiat, dolore atque a iure blanditiis
+                quaerat sed explicabo adipisci voluptates, illum minima velit
+                eveniet perspiciatis enim eum! Illum dicta in ex at repellat
+                corporis explicabo distinctio! Libero autem fugiat omnis ducimus
+                quisquam tempora rerum maxime? Eum necessitatibus blanditiis
+                voluptates?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features -->
+    <div class="features">
+      <div class="container">
+        <h2>Side Charceters</h2>
+        <div class="feat-box">
+          <img src="imgs/012.jpg" alt="" />
+          <h4>Shanks</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/018.jpg" alt="" />
+          <h4>Silvers Rayleigh</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/014.jpg" alt="" />
+          <h4>Gol D. Roger</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/015.jpg" alt="" />
+          <h4>Whitebeard</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/016.jpg" alt="" />
+          <h4>Portgas D. Ace</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/017.jpg" alt="" />
+          <h4>Sabo</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            iste?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- Testimonial -->
+    <div class="testimonial">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            voluptas atque odio ad vero corrupti architecto voluptatem ipsam aut
+            repellat.
+          </p>
+          <div class="person-info">
+            <img style="width: 80px" src="imgs/03.jpg" alt="" />
+            <h4>Yossef Amen</h4>
+            <p>Big Fan</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            voluptas atque odio ad vero corrupti architecto voluptatem ipsam aut
+            repellat.
+          </p>
+          <div class="person-info">
+            <img style="width: 80px" src="imgs/07.jpg" alt="" />
+            <h4>Yossef Amen</h4>
+            <p>Big Fan</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            voluptas atque odio ad vero corrupti architecto voluptatem ipsam aut
+            repellat.
+          </p>
+          <div class="person-info">
+            <img style="width: 80px" src="imgs/02.jpg" alt="" />
+            <h4>Yossef Amen</h4>
+            <p>Big Fan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact us -->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="number" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="Email" />
+            <input type="text" placeholder="Subject" name="Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Massage"></textarea>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">Creat With Love By Yossef Amen</div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
